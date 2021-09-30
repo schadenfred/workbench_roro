@@ -1,0 +1,7 @@
+[submodule "roro"]
+	path = roro
+	url = git@github.com:schadenfred/roro.git
+
+[submodule "roro.wiki"]
+  path = roro.wiki
+  url = git@github.com:schadenfred/roro.wiki.git
