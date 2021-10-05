@@ -16,12 +16,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7eaaafd4-d3b8-4fed-937c-a66f0c9b94c2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/lib/roro/cli.rb" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro/cli.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/django.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/django.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/templates/one/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/templates/one/Dockerfile.tt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/templates/one/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/templates/one/docker-compose.yml.tt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/templates/one/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/templates/one/requirements.txt.tt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/test/roro/configurators/configurator_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/roro/test/roro/configurators/configurator_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +67,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="spork.debugging.info.shown" value="true" />
     <property name="spring.debugging.info.shown" value="true" />
   </component>
@@ -350,7 +344,7 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPTS_PATHS" VALUE="$MODULE_DIR$/../../roro/test/roro/configurators/configurator_test.rb" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="CUSTOM_SET_OF_FILES" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
@@ -412,7 +406,7 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPTS_PATHS" VALUE="$MODULE_DIR$/../../roro/test/roro/crypto/file_writer_test.rb" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="CUSTOM_SET_OF_FILES" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
@@ -491,7 +485,8 @@
       <workItem from="1633319665654" duration="6127000" />
       <workItem from="1633356879347" duration="28859000" />
       <workItem from="1633452906471" duration="12985000" />
-      <workItem from="1633466053700" duration="8468000" />
+      <workItem from="1633466053700" duration="8600000" />
+      <workItem from="1633475748900" duration="197000" />
     </task>
     <servers />
   </component>
@@ -525,7 +520,7 @@
     <SUITE FILE_PATH="coverage/workbench_roro@adventure_case_builder_test_rb.rcov" NAME="adventure_case_builder_test.rb Coverage Results" MODIFIED="1633031477960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
     <SUITE FILE_PATH="coverage/workbench_roro@file_writer_test_rb.rcov" NAME="file_writer_test.rb Coverage Results" MODIFIED="1633473613501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
     <SUITE FILE_PATH="coverage/workbench_roro@question_builder_test_rb__1_.rcov" NAME="question_builder_test.rb (1) Coverage Results" MODIFIED="1633358838864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
-    <SUITE FILE_PATH="coverage/workbench_roro@all.rcov" NAME="all Coverage Results" MODIFIED="1633474500368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
+    <SUITE FILE_PATH="coverage/workbench_roro@all.rcov" NAME="all Coverage Results" MODIFIED="1633474525924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
     <SUITE FILE_PATH="coverage/workbench_roro@test.rcov" NAME="test Coverage Results" MODIFIED="1633034965777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
     <SUITE FILE_PATH="coverage/workbench_roro@adventure_case_builder_test_rb__1_.rcov" NAME="adventure_case_builder_test.rb (1) Coverage Results" MODIFIED="1633035490774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
     <SUITE FILE_PATH="coverage/workbench_roro@utilities_test_rb.rcov" NAME="utilities_test.rb Coverage Results" MODIFIED="1633460423022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
