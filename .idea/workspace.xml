@@ -17,24 +17,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7eaaafd4-d3b8-4fed-937c-a66f0c9b94c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/templates/stage_two/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/rollon_fatsufodo_wordpress.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/roro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/roro.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/expressjs/expressjs.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/expressjs/templates/stage_one/Dockerfile.tt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/expressjs/templates/stage_one/docker-compose.yml.tt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/rails/templates/stage_one/Dockerfile.tt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/rails/templates/stage_one/Gemfile.lock.tt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/rails/templates/stage_one/Gemfile.tt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/rails/templates/stage_one/docker-compose.yml.tt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/rails/templates/stage_one/entrypoint.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/rails/templates/stage_two/database.yml.tt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/wordpress/templates/stage_one/docker-compose.yml.tt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/wordpress/test/stage_one/dummy/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/wordpress/test/stage_one/stage_one_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/wordpress/test/stage_two/dummy/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/wordpress/test/stage_two/dummy/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/wordpress/test/stage_two/stage_two_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/rollon_fatsufodo_expressjs.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/rollon_fatsufodo_rails_postgres.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workbench_roro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workbench_roro.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roro" beforeDir="false" afterPath="$PROJECT_DIR$/roro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/lib/roro.rb" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/lib/roro/configurators/adventure_chooser.rb" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro/configurators/adventure_chooser.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/lib/roro/configurators/adventure_writer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro/configurators/adventure_writer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/lib/roro/configurators/configurator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro/configurators/configurator.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/lib/roro/configurators/question_asker.rb" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro/configurators/question_asker.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/lib/roro/configurators/utilities.rb" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro/configurators/utilities.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/lib/roro/configurators/validator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro/configurators/validator.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/django.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/django.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/templates/stage_one/docker-compose.yml.tt" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/templates/stage_one/docker-compose.yml.tt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/templates/stage_two/_settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/test/stage_two/stage_two_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/test/stage_two/stage_two_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/roro.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/roro/roro.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/rollon_fatsufodo_django.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/rollon_fatsufodo_django.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/rails/rails.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/rails/rails.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/wordpress/wordpress.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/wordpress/wordpress.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/rollon_fatsufodo_wordpress.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/rollon_fatsufodo_wordpress.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,15 +76,24 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file:///usr/share/rvm/gems/ruby-2.7.3@sandbox/gems/roro-0.3.23/lib/roro/configurators/adventure_writer.rb" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/rails/templates/stage_two/database.yml.tt" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/templates/stage_two/settings.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/wordpress/templates/stage_one/docker-compose.yml.tt" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/roro/lib/roro/configurators/adventure_chooser.rb" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/scripts/rollon_fatsufodo_django.sh" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/roro/lib/roro/configurators/question_asker.rb" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/rails/rails.yml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/django.yml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/scripts/rollon_fatsufodo_wordpress.sh" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/roro/test/roro/configurators/adventure_chooser_test.rb" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/wordpress/wordpress.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/rails/templates/stage_one/Dockerfile.tt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/rails/templates/stage_one/Gemfile.tt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/rails/templates/stage_one/entrypoint.sh" root0="FORCE_HIGHLIGHTING" />
     <setting file="file:///usr/share/rvm/gems/ruby-2.7.3@sandbox/gems/roro-0.3.23/lib/roro/configurators/configurator.rb" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/templates/stage_one/docker-compose.yml.tt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/rails/templates/stage_one/docker-compose.yml.tt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/scripts/rollon_fatsufodo_rails_postgres.sh" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1yrl6ySigEllMUnKs65ICC5y7mN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -109,12 +125,15 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/scripts" />
+      <recent name="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories" />
       <recent name="$PROJECT_DIR$/roro/lib/roro" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/expressjs/templates/stage_one" />
+      <recent name="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/rails/templates/stage_2" />
+      <recent name="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/asp_dot_net/templates/stage_one" />
       <recent name="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/test/dummy/step_one" />
       <recent name="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/test" />
-      <recent name="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/story_test" />
     </key>
   </component>
   <component name="RubyModuleManagerSettings">
@@ -128,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Shell Script.roro rollon">
+  <component name="RunManager" selected="Shell Script.fatsufodo expressjs">
     <configuration type="RakeRunConfigurationType" factoryName="Rake" singleton="false">
       <module name="roro" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -362,6 +381,51 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="fatsufodo expressjs" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="roro rollon" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/rollon_fatsufodo_expressjs.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="--login" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="fatsufodo rails postgres" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="roro rollon" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/rollon_fatsufodo_rails_postgres.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="--login" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="fatsufodo wordpress" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="roro rollon" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/rollon_fatsufodo_wordpress.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="--login" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="roro help" type="ShConfigurationType">
       <option name="SCRIPT_TEXT" value="roro --help" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
@@ -544,6 +608,9 @@
     <list>
       <item itemvalue="Rake.Unnamed" />
       <item itemvalue="Shell Script.roro rollon" />
+      <item itemvalue="Shell Script.fatsufodo wordpress" />
+      <item itemvalue="Shell Script.fatsufodo rails postgres" />
+      <item itemvalue="Shell Script.fatsufodo expressjs" />
       <item itemvalue="Shell Script.roro help" />
       <item itemvalue="Test::Unit/Shoulda/Minitest.all" />
       <item itemvalue="Test::Unit/Shoulda/Minitest.question_builder_test.rb" />
@@ -585,7 +652,7 @@
       <workItem from="1633452906471" duration="12985000" />
       <workItem from="1633466053700" duration="8600000" />
       <workItem from="1633475748900" duration="197000" />
-      <workItem from="1633629490109" duration="11406000" />
+      <workItem from="1633629490109" duration="16969000" />
     </task>
     <servers />
   </component>
