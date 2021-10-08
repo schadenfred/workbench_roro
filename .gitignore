@@ -7,5 +7,5 @@
 # Ignore bundler config.
 /.bundle
 
-sandbox
-.idea/workspace.xml
+/sandbox
+/.idea/workspace.xml
