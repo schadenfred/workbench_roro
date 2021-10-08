@@ -3,8 +3,8 @@
 ( cd roro &&
   bundle &&
   gem build roro.gemspec)
-( mkdir -p sandbox/django &&
-  cd sandbox/django &&
+( mkdir -p sandbox/expressjs &&
+  cd sandbox/expressjs &&
   rvm install 2.7.3 &&
   rvm use 2.7.3@sandbox --create &&
   gem install --local ../../roro/roro-0.3.23.gem  &&
@@ -12,7 +12,7 @@
   roro --help &&
   sudo docker-compose down &&
   sudo rm -rf *
-  printf "1\n1\ny\ny\ny\ny\ny\ny\ny$var\n" | roro rollon
+  printf "1\n2\ny\ny\ny\ny\ny\ny\ny$var\n" | roro rollon
 
 )
 

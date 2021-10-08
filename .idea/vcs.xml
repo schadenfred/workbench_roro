@@ -4,5 +4,7 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/roro" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/roro.wiki" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sandbox/rails_postgres" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sandbox/wordpress" vcs="Git" />
   </component>
 </project>
