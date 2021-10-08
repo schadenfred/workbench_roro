@@ -5,33 +5,26 @@
   </component>
   <component name="AutoTestManager">
     <enabled-run-configurations>
+      <run-configuration type="TestUnitRunConfigurationType" name="" />
       <run-configuration type="TestUnitRunConfigurationType" name="asker_inflection_test.rb" />
+      <run-configuration type="TestUnitRunConfigurationType" name="all" />
       <run-configuration type="TestUnitRunConfigurationType" name="question_builder_test.rb (1)" />
       <run-configuration type="TestUnitRunConfigurationType" name="adventure_chooser_test.rb" />
     </enabled-run-configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7eaaafd4-d3b8-4fed-937c-a66f0c9b94c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/roro/lib/roro/configurators/ask_inflection.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roro/test/roro/configurators/ask_inflection_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro" beforeDir="false" afterPath="$PROJECT_DIR$/roro" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roro/lib/roro/configurator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro/configurator.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/lib/roro/configurators/adventure_case_builder.rb" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro/configurators/adventure_case_builder.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roro/lib/roro/configurators/adventure_chooser.rb" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro/configurators/adventure_chooser.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roro/lib/roro/configurators/ask_inflection.rb" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro/configurators/adventure_asker.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roro/lib/roro/configurators/configurator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro/configurators/configurator.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/django.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/django.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/test/stage_one/stage_one_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/test/stage_one/stage_one_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/test/stage_two/dummy/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/test/stage_two/stage_two_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/expressjs/expressjs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/expressjs/expressjs.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/wordpress/test/stage_one/dummy/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/wordpress/test/stage_one/stage_one_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/wordpress/test/stage_two/dummy/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/wordpress/test/stage_two/dummy/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/wordpress/test/stage_two/stage_two_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/test/roro/configurators/question_asker_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/roro/test/roro/configurators/question_asker_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/test/roro/configurators/utilities_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/roro/test/roro/configurators/utilities_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roro/test/fixtures/stack/valid/stack/stack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roro/test/fixtures/stack/valid/stack/stack.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roro/test/helpers/configurator_helpers.rb" beforeDir="false" afterPath="$PROJECT_DIR$/roro/test/helpers/configurator_helpers.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roro/test/roro/configurators/adventure_chooser_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/roro/test/roro/configurators/adventure_chooser_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roro/test/roro/configurators/ask_inflection_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/roro/test/roro/configurators/adventure_asker_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roro/test/roro/configurators/configurator_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/roro/test/roro/configurators/configurator_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/rollon_fatsufodo_django.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/rollon_fatsufodo_django.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +47,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/roro" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -183,37 +176,6 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
-      <method v="2" />
-    </configuration>
-    <configuration type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
-      <module name="roro" />
-      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../roro" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" ENABLE_FORKED_COVERAGE="true">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/../../roro/test/roro/cli/rollon/fatsufodo_django_test.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPTS_PATHS" VALUE="$MODULE_DIR$/../../roro/test/roro/cli/rollon/rollon_test.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
@@ -371,6 +333,21 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="fatsufodo django" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="roro rollon" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/rollon_fatsufodo_django.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="--login" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="fatsufodo expressjs" type="ShConfigurationType">
       <option name="SCRIPT_TEXT" value="roro rollon" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
@@ -431,19 +408,35 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="roro rollon" type="ShConfigurationType">
-      <option name="SCRIPT_TEXT" value="roro rollon" />
-      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
-      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/rollon_fatsufodo_django.sh" />
-      <option name="SCRIPT_OPTIONS" value="" />
-      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
-      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
-      <option name="INTERPRETER_PATH" value="/bin/bash" />
-      <option name="INTERPRETER_OPTIONS" value="--login" />
-      <option name="EXECUTE_IN_TERMINAL" value="true" />
-      <option name="EXECUTE_SCRIPT_FILE" value="true" />
-      <envs />
+    <configuration type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="roro" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../roro" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" IGNORE_RCOVRT="true" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/../../roro/test/roro/configurators/adventure_asker_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPTS_PATHS" VALUE="$MODULE_DIR$/../../roro/test/roro/configurators/ask_inflection_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method v="2" />
     </configuration>
     <configuration name="adventure_chooser_test.rb" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
@@ -597,7 +590,7 @@
     </configuration>
     <list>
       <item itemvalue="Rake.Unnamed" />
-      <item itemvalue="Shell Script.roro rollon" />
+      <item itemvalue="Shell Script.fatsufodo django" />
       <item itemvalue="Shell Script.fatsufodo wordpress" />
       <item itemvalue="Shell Script.fatsufodo rails postgres" />
       <item itemvalue="Shell Script.fatsufodo expressjs" />
@@ -607,12 +600,14 @@
       <item itemvalue="Test::Unit/Shoulda/Minitest.asker_inflection_test.rb" />
       <item itemvalue="Test::Unit/Shoulda/Minitest.question_builder_test.rb (1)" />
       <item itemvalue="Test::Unit/Shoulda/Minitest.adventure_chooser_test.rb" />
+      <item itemvalue="Test::Unit/Shoulda/Minitest.ask_inflection_test.rb" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.asker_inflection_test.rb" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.ask_inflection_test.rb" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.adventure_chooser_test.rb" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.question_builder_test.rb (1)" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.asker_inflection_test.rb" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.question_builder_test.rb" />
       </list>
     </recent_temporary>
@@ -644,7 +639,7 @@
       <workItem from="1633475748900" duration="197000" />
       <workItem from="1633629490109" duration="16969000" />
       <workItem from="1633653332093" duration="2447000" />
-      <workItem from="1633705555938" duration="1883000" />
+      <workItem from="1633705555938" duration="17518000" />
     </task>
     <servers />
   </component>
@@ -677,6 +672,7 @@
     <SUITE FILE_PATH="coverage/workbench_roro@Unnamed.rcov" NAME="test::all Coverage Results" MODIFIED="1622258863529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
     <SUITE FILE_PATH="coverage/workbench_roro@cipher_test_rb.rcov" NAME="cipher_test.rb Coverage Results" MODIFIED="1622308438847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
     <SUITE FILE_PATH="coverage/workbench_roro@cipher.rcov" NAME="cipher Coverage Results" MODIFIED="1622270385180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro/lib/roro/crypto" MODULE_NAME="roro" />
+    <SUITE FILE_PATH="coverage/workbench_roro@ask_inflection_test_rb.rcov" NAME=" Coverage Results" MODIFIED="1633716535869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
     <SUITE FILE_PATH="coverage/workbench_roro@file_reflection_test_rb.rcov" NAME="file_reflection_test.rb Coverage Results" MODIFIED="1622323629091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
     <SUITE FILE_PATH="coverage/workbench_roro@question_builder_test_rb.rcov" NAME="question_builder_test.rb Coverage Results" MODIFIED="1633544024387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
     <SUITE FILE_PATH="coverage/workbench_roro@configurator_test_rb__1_.rcov" NAME="configurator_test.rb (1) Coverage Results" MODIFIED="1633466766448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
@@ -686,9 +682,9 @@
     <SUITE FILE_PATH="coverage/workbench_roro@obfuscator_test_rb.rcov" NAME="obfuscator_test.rb Coverage Results" MODIFIED="1622271123061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
     <SUITE FILE_PATH="coverage/workbench_roro@generate_obfuscated_test_rb.rcov" NAME="generate_obfuscated_test.rb Coverage Results" MODIFIED="1632975068769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
     <SUITE FILE_PATH="coverage/workbench_roro@question_builder_test_rb__1_.rcov" NAME="question_builder_test.rb (1) Coverage Results" MODIFIED="1633546585574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
-    <SUITE FILE_PATH="coverage/workbench_roro@all.rcov" NAME="all Coverage Results" MODIFIED="1633707055449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
+    <SUITE FILE_PATH="coverage/workbench_roro@all.rcov" NAME="all Coverage Results" MODIFIED="1633723210625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
     <SUITE FILE_PATH="coverage/workbench_roro@generate_story_test_rb.rcov" NAME="generate_story_test.rb Coverage Results" MODIFIED="1632975077182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
-    <SUITE FILE_PATH="coverage/workbench_roro@asker_inflection_test_rb.rcov" NAME="asker_inflection_test.rb Coverage Results" MODIFIED="1633544463722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
+    <SUITE FILE_PATH="coverage/workbench_roro@asker_inflection_test_rb.rcov" NAME="asker_inflection_test.rb Coverage Results" MODIFIED="1633716593638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
     <SUITE FILE_PATH="coverage/workbench_roro@adventure_case_builder_test_rb__1_.rcov" NAME="adventure_case_builder_test.rb (1) Coverage Results" MODIFIED="1633035490774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
     <SUITE FILE_PATH="coverage/workbench_roro@utilities_test_rb.rcov" NAME="utilities_test.rb Coverage Results" MODIFIED="1633460423022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
     <SUITE FILE_PATH="coverage/workbench_roro@generate_keys_test_rb.rcov" NAME="generate_keys_test.rb Coverage Results" MODIFIED="1632975060437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
