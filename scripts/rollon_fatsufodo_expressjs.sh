@@ -12,7 +12,7 @@
   roro --help &&
   sudo docker-compose down &&
   sudo rm -rf *
-  printf "1\n2\ny\ny\ny\ny\ny\ny\ny$var\n" | roro rollon
+  printf "1\n\ny\ny\ny\ny\ny\ny\ny$var\n" | roro rollon
 
 )
 
