@@ -15,13 +15,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7eaaafd4-d3b8-4fed-937c-a66f0c9b94c2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workbench_roro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workbench_roro.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roro/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roro/.circleci/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roro/lib/roro/crypto.rb" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro/crypto.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/django.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/django.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roro/process.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roro/process.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/rollon_fatsufodo_expressjs.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/rollon_fatsufodo_expressjs.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,10 +53,24 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/roro/.circleci/config.yml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file:///usr/share/rvm/gems/ruby-2.7.3@sandbox/gems/roro-0.3.23/lib/roro/configurators/adventure_writer.rb" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/scripts/rollon_fatsufodo_wordpress.sh" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file:///usr/share/rvm/gems/ruby-2.7.3@sandbox/gems/roro-0.3.23/lib/roro/configurators/configurator.rb" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/django.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/roro/test/helpers/story_helper.rb" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/roro/lib/roro.rb" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/scripts/rollon_fatsufodo_django.sh" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/roro/roro/containers/app/ci.env" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/roro/roro/containers/ruby_image/Dockerfile" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/roro/lib/roro/crypto.rb" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/roro/lib/roro/crypto/file_reflection.rb" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/roro/test/test_helper.rb" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/scripts/rollon_fatsufodo_wordpress.sh" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/roro/lib/roro/crypto/obfuscator.rb" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/roro/lib/roro/configurators/validator.rb" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/scripts/rollon_fatsufodo_expressjs.sh" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///usr/share/rvm/gems/ruby-2.7.3@sandbox/gems/roro-0.3.23/lib/roro/configurators/configurator.rb" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/roro/docker-compose.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/roro/test/roro/configurators/adventure_case_builder_test.rb" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/scripts/rollon_fatsufodo_rails_postgres.sh" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1yrl6ySigEllMUnKs65ICC5y7mN" />
@@ -681,7 +693,7 @@
       <workItem from="1633977334361" duration="14591000" />
       <workItem from="1634067329710" duration="10604000" />
       <workItem from="1634148184272" duration="11048000" />
-      <workItem from="1634160299413" duration="688000" />
+      <workItem from="1634160299413" duration="5218000" />
     </task>
     <servers />
   </component>
