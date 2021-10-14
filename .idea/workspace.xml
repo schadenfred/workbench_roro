@@ -10,12 +10,7 @@
     </enabled-run-configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eaaafd4-d3b8-4fed-937c-a66f0c9b94c2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/roro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/roro.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roro/.circleci/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/expressjs/expressjs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/expressjs/expressjs.yml" afterDir="false" />
-    </list>
+    <list default="true" id="7eaaafd4-d3b8-4fed-937c-a66f0c9b94c2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
