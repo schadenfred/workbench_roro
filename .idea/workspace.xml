@@ -11,14 +11,7 @@
     </enabled-run-configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eaaafd4-d3b8-4fed-937c-a66f0c9b94c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/rollon_fatsufodo_flask.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workbench_roro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workbench_roro.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/django.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roro/lib/roro/stacks/catalog/unstoppable/developer_styles/fatsufodo/stories/django/django.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/rollon_fatsufodo_rails_postgres.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/rollon_fatsufodo_rails.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/rollon_fatsufodo_wordpress.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/rollon_fatsufodo_wordpress.sh" afterDir="false" />
-    </list>
+    <list default="true" id="7eaaafd4-d3b8-4fed-937c-a66f0c9b94c2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Shell Script.fatsufodo django">
+  <component name="RunManager" selected="Shell Script.circle-job-test">
     <configuration type="RakeRunConfigurationType" factoryName="Rake" singleton="false">
       <module name="roro" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -327,66 +320,6 @@
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="fatsufodo expressjs" type="ShConfigurationType">
-      <option name="SCRIPT_TEXT" value="roro rollon" />
-      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
-      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/rollon_fatsufodo_expressjs.sh" />
-      <option name="SCRIPT_OPTIONS" value="" />
-      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
-      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
-      <option name="INTERPRETER_PATH" value="/bin/bash" />
-      <option name="INTERPRETER_OPTIONS" value="--login" />
-      <option name="EXECUTE_IN_TERMINAL" value="true" />
-      <option name="EXECUTE_SCRIPT_FILE" value="true" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="fatsufodo flask" type="ShConfigurationType">
-      <option name="SCRIPT_TEXT" value="roro rollon" />
-      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
-      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/rollon_fatsufodo_flask.sh" />
-      <option name="SCRIPT_OPTIONS" value="" />
-      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
-      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
-      <option name="INTERPRETER_PATH" value="/bin/bash" />
-      <option name="INTERPRETER_OPTIONS" value="--login" />
-      <option name="EXECUTE_IN_TERMINAL" value="true" />
-      <option name="EXECUTE_SCRIPT_FILE" value="true" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="fatsufodo rails" type="ShConfigurationType">
-      <option name="SCRIPT_TEXT" value="roro rollon" />
-      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
-      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/rollon_fatsufodo_rails.sh" />
-      <option name="SCRIPT_OPTIONS" value="" />
-      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
-      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
-      <option name="INTERPRETER_PATH" value="/bin/bash" />
-      <option name="INTERPRETER_OPTIONS" value="--login" />
-      <option name="EXECUTE_IN_TERMINAL" value="true" />
-      <option name="EXECUTE_SCRIPT_FILE" value="true" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="roro help" type="ShConfigurationType">
-      <option name="SCRIPT_TEXT" value="roro --help" />
-      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
-      <option name="SCRIPT_PATH" value="" />
-      <option name="SCRIPT_OPTIONS" value="" />
-      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
-      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/roro" />
-      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
-      <option name="INTERPRETER_PATH" value="/bin/bash" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="EXECUTE_IN_TERMINAL" value="true" />
-      <option name="EXECUTE_SCRIPT_FILE" value="false" />
-      <envs />
       <method v="2" />
     </configuration>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
@@ -673,7 +606,7 @@
     <SUITE FILE_PATH="coverage/workbench_roro@rollon_test_rb.rcov" NAME="rollon_test.rb Coverage Results" MODIFIED="1633553497002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
     <SUITE FILE_PATH="coverage/workbench_roro@generate_keys_test_rb.rcov" NAME="generate_keys_test.rb Coverage Results" MODIFIED="1634360333548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
     <SUITE FILE_PATH="coverage/workbench_roro@stage_one_test_rb.rcov" NAME="stage_one_test.rb Coverage Results" MODIFIED="1634609635824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
-    <SUITE FILE_PATH="coverage/workbench_roro@all.rcov" NAME="all Coverage Results" MODIFIED="1634627378307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
+    <SUITE FILE_PATH="coverage/workbench_roro@all.rcov" NAME="all Coverage Results" MODIFIED="1634627398603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
     <SUITE FILE_PATH="coverage/workbench_roro@test_focus_folder.rcov" NAME="test:focus:folder Coverage Results" MODIFIED="1628049358662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
     <SUITE FILE_PATH="coverage/workbench_roro@file_reflection_test_rb.rcov" NAME="file_reflection_test.rb Coverage Results" MODIFIED="1634268402299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
     <SUITE FILE_PATH="coverage/workbench_roro@question_builder_test_rb__1_.rcov" NAME="question_builder_test.rb (1) Coverage Results" MODIFIED="1633358838864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roro" MODULE_NAME="roro" />
