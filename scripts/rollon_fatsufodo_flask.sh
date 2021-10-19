@@ -3,8 +3,8 @@
 ( cd roro &&
   bundle &&
   gem build roro.gemspec)
-( mkdir -p sandbox/rails_postgres &&
-  cd sandbox/rails_postgres &&
+( mkdir -p sandbox/flask &&
+  cd sandbox/flask &&
   rvm install 2.7.3 &&
   rvm use 2.7.3@sandbox --create &&
   gem install --local ../../roro/roro-0.3.23.gem  &&
