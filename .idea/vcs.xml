@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reference/wordpress-docker" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/roro" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/roro.wiki" vcs="Git" />
   </component>
