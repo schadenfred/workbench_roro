@@ -10,9 +10,17 @@
   gem install --local ../../roro/roro-0.3.23.gem  &&
   gem install byebug &&
   roro --help &&
+<<<<<<< HEAD
 #  sudo docker-compose down &&
   rm -rf *
   printf "2\n1\ny\ny\ny\ny\ny\ny\ny$var\n" | roro rollon
+=======
+  sudo docker-compose down &&
+  sudo rm -rf *
+  roro generate:mise
+#  printf "2\n1\ny\ny\ny\ny\ny\ny\ny$var\n" | roro rollon
+  roro rollon
+>>>>>>> v2
 
 )
 
