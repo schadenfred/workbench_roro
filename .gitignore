@@ -10,6 +10,7 @@
 /sandbox
 /.idea/workspace.xml*
 .idea/workspace.xml*
+.idea/vcs.xml*
 /.idea/workspace.xml
 .idea/workspace.xml
 .idea/**/workspace.xml
