@@ -2,7 +2,7 @@
 
 ( cd roro &&
   bundle &&
-  gem build roro.gemspec)
+  gem build roro.gemspec )
 ( mkdir -p sandbox/django &&
   cd sandbox/django &&
   rvm install 2.7.3 &&
@@ -13,6 +13,4 @@
   sudo docker-compose down &&
   sudo rm -rf *
   printf "1\n1\ny\ny\ny\ny\ny\ny\ny$var\n" | roro rollon
-
 )
-
