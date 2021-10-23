@@ -7,13 +7,15 @@
   cd sandbox/rails &&
   rvm install 2.7.3 &&
   rvm use 2.7.3@sandbox --create &&
-  gem install --local ../../roro/roro-0.3.23.gem  &&
-  gem install byebug &&
+  gem install --local ../../roro/roro-*.gem  &&
+    roro --help &&
+    sudo docker-compose down &&
+    sudo rm -rf *
+    printf "1\n1\na$var\n" | roro rollon
   roro --help &&
   sudo docker-compose down &&
   sudo rm -rf *
-  roro rollon
-#  printf "1\n4\ny\ny\ny\ny\ny\ny\ny$var\n" | roro rollon
+  printf "1\n4\na$var\n" | roro rollon
 
 )
 
