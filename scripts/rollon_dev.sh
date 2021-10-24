@@ -12,5 +12,6 @@
   sudo docker-compose down &&
   sudo rm -rf *
 #  printf "1\n1\na$var\n" | roro rollon
-  printf ${sequence} | roro rollon
+#  printf ${sequence} | roro rollon
+  roro rollon
 )
