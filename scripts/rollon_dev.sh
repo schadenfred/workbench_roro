@@ -1,17 +1,20 @@
 #!/bin/bash
 
+
 ( cd roro &&
+  gem install rake
+  rake install:local
   bundle &&
   gem build roro.gemspec )
-( mkdir -p sandbox/dev &&
-  cd sandbox/dev &&
-  rvm install 2.7.3 &&
-  rvm use 2.7.3@sandbox --create &&
-  gem install --local ../../roro/roro-*.gem  &&
+( mkdir -p sandbox/development &&
+  cd sandbox/development &&
+  gem install --local ../../roro/roro.gem  &&
   roro --help &&
-  sudo docker-compose down &&
+#  sudo docker-compose down &&
   sudo rm -rf *
-#  printf "1\n1\na$var\n" | roro rollon
+  sudo rm -rf .*
+
+  printf "4\n2\na$var\a" | roro rollon
 #  printf ${sequence} | roro rollon
-  roro rollon
+#  roro rollon
 )
