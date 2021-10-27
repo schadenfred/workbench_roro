@@ -9,8 +9,29 @@
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
     </content>
-    <orderEntry type="jdk" jdkName="RVM: ruby-3.0.2 [workbench_roro]" jdkType="RUBY_SDK" />
+    <orderEntry type="jdk" jdkName="RVM: ruby-3.0.2 [roro]" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="rbs (v1.0.4, RVM: ruby-3.0.2 [workbench_roro]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="activesupport (v6.1.4.1, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="addressable (v2.8.0, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.2.22, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="capybara (v3.35.3, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="childprocess (v3.0.0, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.1.9, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="i18n (v1.8.10, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mini_mime (v1.1.1, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="minitest (v5.14.4, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.12.5, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="public_suffix (v4.0.6, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="racc (v1.5.2, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack (v2.2.3, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack-test (v1.1.0, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rake (v13.0.6, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rbs (v1.0.4, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="regexp_parser (v2.1.1, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rubyzip (v2.3.2, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="selenium-webdriver (v3.142.7, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tzinfo (v2.0.4, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="xpath (v3.2.0, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="zeitwerk (v2.4.2, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
   </component>
 </module>
