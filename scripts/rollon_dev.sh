@@ -11,8 +11,8 @@
   roro --help &&
 #  sudo docker-compose down &&
   rm -rf *
-  rm -rf *
-  printf "4\n2\na$var\n" | roro rollon
+  rm -rf .*
+#  printf "4\n2\na$var\n" | roro rollon
 #  printf ${sequence} | roro rollon
 #  roro rollon
 )
