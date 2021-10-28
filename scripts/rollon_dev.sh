@@ -7,14 +7,13 @@
   rvm install 3.0.2 &&
   rvm use 3.0.2@roro --create &&
   bundle &&
-  rake install:local
+  bundle exec rake install:local
   #  gem build roro.gemspec
 )
 
 ( mkdir -p sandbox/dev &&
   cd sandbox/dev &&
-  rvm use 3.0.2@roro --create &&
-  gem install --local ../../roro/roro-*.gem  &&
+  gem install --local ../../roro/pkg/roro-0.3.29.gem  &&
 #  roro --help &&
 #  sudo docker-compose down &&
 #  sudo rm -rf * &&

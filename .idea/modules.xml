@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/roro.iml" filepath="$PROJECT_DIR$/.idea/modules/roro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/roro.wiki/.idea/roro.wiki.iml" filepath="$PROJECT_DIR$/roro.wiki/.idea/roro.wiki.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/workbench_roro.iml" filepath="$PROJECT_DIR$/.idea/workbench_roro.iml" />
     </modules>
   </component>
