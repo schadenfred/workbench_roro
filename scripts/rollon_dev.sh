@@ -19,7 +19,7 @@
 #  sudo docker-compose down &&
 #  sudo rm -rf * &&
 #  sudo rm -rf .* &&
-  printf "2\n2\n1\n1\na$var\n" | roro rollon
+#  printf "2\n2\n1\n1\na$var\n" | roro rollon
 #  printf ${sequence} | roro rollon
-#  roro rollon
+  roro rollon
 )
