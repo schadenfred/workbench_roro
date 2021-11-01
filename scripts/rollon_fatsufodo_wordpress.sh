@@ -5,13 +5,13 @@
   gem build roro.gemspec)
 ( mkdir -p sandbox/wordpress &&
   cd sandbox/wordpress &&
-  rvm install 2.7.3 &&
-  rvm use 2.7.3@sandbox --create &&
-  gem install --local ../../roro/roro-0.3.23.gem  &&
+  rvm install 3.0.2 &&
+  rvm use 3.0.2@sandbox --create &&
+  gem install --local ../../roro/roro-0.3.29.gem  &&
   gem install byebug &&
   roro --help &&
   sudo docker-compose down &&
-  sudo rm -rf *
+  sudo rm -rf * &&
   printf "1\n5\ny\ny\ny\ny\ny\ny\ny$var\n" | roro rollon
 
 )
