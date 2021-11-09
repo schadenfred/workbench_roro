@@ -4,7 +4,9 @@
     <shared />
   </component>
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$/../../roro" />
+    <content url="file://$MODULE_DIR$/../../roro">
+      <excludeFolder url="file://$MODULE_DIR$/../../roro/pkg" />
+    </content>
     <orderEntry type="jdk" jdkName="RVM: ruby-2.7.3 [roro]" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v6.1.4.1, RVM: ruby-2.7.3 [roro]) [gem]" level="application" />
