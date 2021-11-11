@@ -14,5 +14,5 @@
 #  sudo rm -rf * &&
 #  sudo rm -rf .* &&
 #  roro rollon
-  printf "1\n1\n1\na$var\n" | roro rollon
+  printf "3\n2\n1\n2\na$var\n" | roro rollon
 )
