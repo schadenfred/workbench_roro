@@ -11,12 +11,7 @@
     <option name="INTERPRETER_OPTIONS" value="--login" />
     <option name="EXECUTE_IN_TERMINAL" value="true" />
     <option name="EXECUTE_SCRIPT_FILE" value="false" />
-    <envs>
-      <env name="one" value="1" />
-      <env name="two" value="1" />
-      <env name="os" value="linux" />
-      <env name="job" value="test-rollon-${one}" />
-    </envs>
+    <envs />
     <method v="2" />
   </configuration>
 </component>
