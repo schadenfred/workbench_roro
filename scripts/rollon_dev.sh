@@ -8,11 +8,11 @@
   mkdir -p sandbox/dev &&
   cd sandbox/dev &&
   rvm use 3.0.2@sandbox --create &&
-  gem install --local ../../roro/roro-0.3.29.gem  &&
+  gem install --local ../../roro/pkg/roro-0.3.29.gem  &&
   roro --help &&
-#  sudo docker-compose down &&
-#  sudo rm -rf * &&
-#  sudo rm -rf .* &&
+  sudo docker-compose down &&
+  sudo rm -rf * &&
+  sudo rm -rf .* &&rakefile
 #  roro rollon
-  printf "3\n2\n1\n2\na$var\n" | roro rollon
+  printf "2\n4\na$var\n" | roro rollon
 )
