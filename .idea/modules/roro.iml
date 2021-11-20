@@ -343,7 +343,6 @@
     <orderEntry type="library" scope="PROVIDED" name="lumberjack (v1.2.8, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="method_source (v1.0.0, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mini_mime (v1.1.2, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mini_portile2 (v2.6.1, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest (v5.14.4, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest-focus (v1.3.1, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest-given (v3.8.2, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
@@ -370,8 +369,9 @@
     <orderEntry type="library" scope="PROVIDED" name="rb-readline (v0.5.5, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rbs (v1.0.4, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="regexp_parser (v2.1.1, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rexml (v3.2.5, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubyzip (v2.3.2, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="selenium-webdriver (v3.142.7, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="selenium-webdriver (v4.0.3, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="shellany (v0.0.1, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="shoulda (v2.11.3, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="shoulda-context (v2.0.0.rc2, RVM: ruby-3.0.2 [roro]) [gem]" level="application" />
@@ -410,6 +410,20 @@
                   <RakeTaskImpl id="workflows">
                     <subtasks>
                       <RakeTaskImpl description="" fullCommand="circleci:process:workflows:test-matrix-rollon" id="test-matrix-rollon" />
+                    </subtasks>
+                  </RakeTaskImpl>
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl id="jobs">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="circleci:jobs:build" id="build" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl id="matrices">
+                <subtasks>
+                  <RakeTaskImpl id="run">
+                    <subtasks>
+                      <RakeTaskImpl description="" fullCommand="circleci:matrices:run:test_rollons" id="test_rollons" />
                     </subtasks>
                   </RakeTaskImpl>
                 </subtasks>
