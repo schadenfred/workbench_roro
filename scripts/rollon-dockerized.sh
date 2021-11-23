@@ -4,7 +4,7 @@ sudo rm -rf ./* ./.*
 docker system prune --volumes
 (cd ~/work/opensource/gems/workbench_roro/roro && docker-compose build)
 
-docker run \
+sudo docker run \
 -v $PWD:/home/schadenfred \
 -v /var/run/docker.sock:/var/run/docker.sock \
 -u 0 \
