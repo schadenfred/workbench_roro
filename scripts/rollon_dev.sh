@@ -13,6 +13,6 @@
 #  sudo docker-compose down &&
 #  sudo rm -rf * &&
 #  sudo rm -rf .* &&
-#  roro rollon
-  printf "2\n4\na$var\n" | roro rollon
+  roro rollon
+#  printf "2\n4\na$var\n" | roro rollon
 )

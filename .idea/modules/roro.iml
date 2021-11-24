@@ -386,7 +386,69 @@
   </component>
   <component name="RakeTasksCache">
     <option name="myRootTask">
-      <RakeTaskImpl id="rake" />
+      <RakeTaskImpl id="rake">
+        <subtasks>
+          <RakeTaskImpl description="Build roro-0.3.29.gem into the pkg directory" fullCommand="build" id="build" />
+          <RakeTaskImpl id="build">
+            <subtasks>
+              <RakeTaskImpl description="Generate SHA512 checksum if roro-0.3.29.gem into the checksums directory" fullCommand="build:checksum" id="checksum" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="circleci">
+            <subtasks>
+              <RakeTaskImpl id="config">
+                <subtasks>
+                  <RakeTaskImpl description="Pack .circleci/config.yml from .circleci/src files" fullCommand="circleci:config:pack" id="pack" />
+                  <RakeTaskImpl description="Validate .circleci/config.yml" fullCommand="circleci:config:validate" id="validate" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="Prepare .circlecli/config.yml for deploy" fullCommand="circleci:prepare" id="prepare" />
+              <RakeTaskImpl id="process">
+                <subtasks>
+                  <RakeTaskImpl description="Process workflows" fullCommand="circleci:process:workflows" id="workflows" />
+                  <RakeTaskImpl id="workflows">
+                    <subtasks>
+                      <RakeTaskImpl description="" fullCommand="circleci:process:workflows:test-matrix-rollon" id="test-matrix-rollon" />
+                    </subtasks>
+                  </RakeTaskImpl>
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl id="jobs">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="circleci:jobs:build" id="build" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl id="matrices">
+                <subtasks>
+                  <RakeTaskImpl id="run">
+                    <subtasks>
+                      <RakeTaskImpl description="" fullCommand="circleci:matrices:run:test_rollons" id="test_rollons" />
+                    </subtasks>
+                  </RakeTaskImpl>
+                </subtasks>
+              </RakeTaskImpl>
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl description="Remove any temporary products" fullCommand="clean" id="clean" />
+          <RakeTaskImpl description="Remove any generated files" fullCommand="clobber" id="clobber" />
+          <RakeTaskImpl description="Build and install roro-0.3.29.gem into system gems" fullCommand="install" id="install" />
+          <RakeTaskImpl id="install">
+            <subtasks>
+              <RakeTaskImpl description="Build and install roro-0.3.29.gem into system gems without network access" fullCommand="install:local" id="local" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl description="Create tag v0.3.29 and build and push roro-0.3.29.gem to rubygems.org" fullCommand="release[remote]" id="release[remote]" />
+          <RakeTaskImpl description="Run tests" fullCommand="test" id="test" />
+          <RakeTaskImpl description="" fullCommand="release" id="release" />
+          <RakeTaskImpl id="release">
+            <subtasks>
+              <RakeTaskImpl description="" fullCommand="release:guard_clean" id="guard_clean" />
+              <RakeTaskImpl description="" fullCommand="release:rubygem_push" id="rubygem_push" />
+              <RakeTaskImpl description="" fullCommand="release:source_control_push" id="source_control_push" />
+            </subtasks>
+          </RakeTaskImpl>
+        </subtasks>
+      </RakeTaskImpl>
     </option>
   </component>
   <component name="RubyModuleProperties">
